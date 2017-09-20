@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-devel-gpu-py3
+FROM gcr.io/tensorflow/tensorflow:latest-devel-gpu-py3
 
 #basic installs
 RUN apt-get update --fix-missing && \
